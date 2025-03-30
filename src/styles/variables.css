@@ -1,0 +1,69 @@
+
+/** COLORS */
+@property --bg-color {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: #ededed;
+}
+@property --text-color {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: #252525;
+}
+@property --text-gray {
+  syntax: '<color>';
+  inherits: false;
+  initial-value: #8d8d8d80;
+}
+@property --primary-color {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: hsl(215, 63%, 50%);
+}
+@property --primary-hover-color {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: hsla(215, 63%, 40%, 0.5);
+}
+
+/** SHADOW */
+@property --shadow-color {
+  syntax: '<color>';
+  inherits: false;
+  initial-value: rgba(0, 0, 0, 0.3);
+}
+@property --shadow-offset-x {
+  syntax: '<length>';
+  inherits: false;
+  initial-value: 2px;
+}
+@property --shadow-offset-y {
+  syntax: '<length>';
+  inherits: false;
+  initial-value: 2px;
+}
+@property --shadow-blur {
+  syntax: '<length>';
+  inherits: false;
+  initial-value: 2px;
+}
+
+/** SIZES */
+@property --font-size {
+  syntax: '*';
+  inherits: true;
+  initial-value: 1rem;
+}
+
+@property --border-radius {
+  syntax: '<length>';
+  inherits: false;
+  initial-value: 6px;
+}
+
+@property --small-pad {
+  syntax: '*';
+  inherits: true;
+  initial-value: .5rem 1rem;
+}
+

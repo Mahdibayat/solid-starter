@@ -1,0 +1,37 @@
+:root {
+  --box-shadow: var(--shadow-offset-x) var(--shadow-offset-y) var(--shadow-blur) var(--shadow-color);
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: var(--primary-color)
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  min-height: 100dvh;
+  min-height: 100vh;
+  transition: background-color 0.3s ease,
+    color .3s ease;
+  font-size: var(--font-size);
+}
+
+.main {
+  height: max-content;
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 390px) {
+  :root {
+    --small-pad: .4rem .7rem;
+    --font-size: .8rem;
+  }
+}

@@ -1,0 +1,21 @@
+.input-container {
+  & .label {
+    color: violet;
+  }
+
+  & .input {
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-kon);
+    padding: var(--small-pad);
+    
+  }
+
+  & .block {
+    width: 100%;
+  }
+
+  & .shadow  {
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+  }
+}
